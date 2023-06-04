@@ -1,7 +1,8 @@
-
+import YellowLines from "./YellowLines.png";
 const Footer = () => {
   return (
-    <div className='w-full h-[381px] max-h-[381px] bg-[#666666]'>
+    <div className='w-full h-[381px] max-h-[381px] bg-[#666666] relative'>
+        <img className="w-25 h-25 bottom-0 right-0 absolute" src={YellowLines}></img>
         <div className="w-full bg-[#555555] text-white flex items-center mb-[5rem] pt-[25px] pb-[25px]">
             <div className="flex ml-[20%]">
             <span className="flex">
